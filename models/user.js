@@ -7,16 +7,16 @@ var User = new Schema({
     firstname: {
         type: String,
           default: ''
-      },
-      lastname: {
-        type: String,
-          default: ''
-      },
-      facebookId: String,
-      admin:   {
-          type: Boolean,
-          default: false
-      }
+    },
+    lastname: {
+    type: String,
+        default: ''
+    },
+    facebookId: String,
+    admin:   {
+        type: Boolean,
+        default: false
+    }
 });
 
 User.plugin(passportLocalMongoose);
