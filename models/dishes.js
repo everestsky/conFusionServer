@@ -51,7 +51,7 @@ const dishSchema = new Schema({
         min: 0
     },
     featured: {
-        type: Boolean,
+        type: String,
         default:false
     },
     comments:[commentSchema]
